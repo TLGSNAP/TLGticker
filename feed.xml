@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-  <channel>
-    <title>My Ticker Feed</title>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://w3.org">
+<channel>
+    <title>My Raw Text Updates</title>
     <link>https://github.com</link>
-    <description>Scrolling text updates</description>
+    <description>An automated RSS feed powered by a GitHub text file.</description>
+    <pubDate>Wed, 07 Oct 2026 21:07:25 GMT</pub_date>
+    <lastBuildDate>Wed, 07 Oct 2026 21:07:25 GMT</lastBuildDate>
+    <atom:link href="https://github.com/raw/main/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to Skill Celebration Week, Families!</title>
+        <title>Latest Text Update</title>
+        <link>https://github.com</link>
+        <description>Welcome to Skill Celebration Week, Families!</description>
+        <pubDate>Wed, 07 Oct 2026 21:07:25 GMT</pubDate>
+        <guid isPermaLink="false">txt-update-5955299499530275208</guid>
     </item>
-  </channel>
+</channel>
 </rss>
