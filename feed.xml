@@ -6,6 +6,11 @@
     <description>Scrolling text updates</description>
     <item>
       <title>Welcome to Skill Celebration Week, Families!</title>
+      <description>Welcome to Skill Celebration Week, Families!</description>
+    </item>
+    <item>
+      <title>Reminder: Picture Day is this Thursday!</title>
+      <description>Reminder: Picture Day is this Thursday!</description>
     </item>
   </channel>
 </rss>
