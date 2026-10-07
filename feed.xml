@@ -4,11 +4,18 @@
     <title>My Ticker Feed</title>
     <link>https://github.com</link>
     <description>Scrolling text updates</description>
+    
+    <!-- Item 1 -->
     <item>
       <title>Welcome to Skill Celebration Week, Families!</title>
+      <description>Welcome to Skill Celebration Week, Families!</description>
     </item>
+
+    <!-- Item 2 -->
     <item>
       <title>Get ready to take tons of photos and videos!</title>
+      <description>Get ready to take tons of photos and videos!</description>
     </item>
+
   </channel>
 </rss>
