@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<channel>
-    <title>My Raw Text Updates</title>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Ticker Feed</title>
     <link>https://github.com</link>
-    <description>An automated RSS feed powered by a GitHub text file.</description>
-    <pubDate>Wed, 07 Oct 2026 20:43:45 GMT</pub_date>
-    <lastBuildDate>Wed, 07 Oct 2026 20:43:45 GMT</lastBuildDate>
+    <description>Scrolling text updates</description>
     <item>
-        <title>Latest Text Update</title>
-        <link>https://github.com</link>
-        <description>Welcome to Skill Celebration Week, Families!</description>
-        <pubDate>Wed, 07 Oct 2026 20:43:45 GMT</pubDate>
-        <guid isPermaLink="false">txt-update--1482194642972652942</guid>
+      <title>Welcome to Skill Celebration Week, Families!</title>
     </item>
-</channel>
+  </channel>
 </rss>
