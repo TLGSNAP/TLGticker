@@ -1,0 +1,33 @@
+name: Generate and Update RSS Feed
+
+on:
+  push:
+    paths:
+      - 'content.txt'  # Triggers immediately when you update the text file
+  schedule:
+    - cron: '0 * * * *' # Triggers automatically every hour to refresh dates
+  workflow_dispatch:   # Allows manual trigger button from the Actions tab
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Grants action permission to commit back to your repo
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Generate RSS File
+      run: python generate_rss.py
+
+    - name: Commit and Push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Automated RSS feed update"
+        file_pattern: 'feed.xml'
