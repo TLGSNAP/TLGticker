@@ -40,7 +40,7 @@ def create_rss():
         <title>Latest Text Update</title>
         <link>{FEED_LINK}</link>
         <description>{safe_content}</description>
-        <pubDate>{pub_date}</pub_date>
+        <pubDate>{pub_date}</pubDate>
         <guid isPermaLink="false">txt-update-{hash(content)}</guid>
     </item>
 </channel>
