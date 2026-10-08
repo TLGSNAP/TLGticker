@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Ticker Feed</title>
+    <link>https://github.com</link>
+    <description>Scrolling text updates</description>
+    <item>
+      <title>Welcome to Skill Celebration Week, Families!</title>
+      <description>Welcome to your first class: Silvie! Lukas! Ian!</description>
+    </item>
+  </channel>
+</rss>
